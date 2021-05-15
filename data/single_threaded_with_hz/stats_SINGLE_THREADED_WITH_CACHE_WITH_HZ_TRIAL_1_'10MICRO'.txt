@@ -1,0 +1,14 @@
+
+ Performance counter stats for process id '9507':
+
+           1518.47 msec task-clock                #    0.557 CPUs utilized          
+                 7      context-switches          #    0.005 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               201      page-faults               #    0.132 K/sec                  
+        6737213886      cycles                    #    4.437 GHz                    
+       11012806607      instructions              #    1.63  insn per cycle         
+        2002940122      branches                  # 1319.052 M/sec                  
+            212906      branch-misses             #    0.01% of all branches        
+
+       2.725513335 seconds time elapsed
+

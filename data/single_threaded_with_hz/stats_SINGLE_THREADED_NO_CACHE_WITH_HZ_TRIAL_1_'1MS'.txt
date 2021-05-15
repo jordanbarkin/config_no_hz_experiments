@@ -1,0 +1,14 @@
+
+ Performance counter stats for process id '9479':
+
+         108561.46 msec task-clock                #    0.989 CPUs utilized          
+               409      context-switches          #    0.004 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               197      page-faults               #    0.002 K/sec                  
+      488426640790      cycles                    #    4.499 GHz                    
+     1111858631223      instructions              #    2.28  insn per cycle         
+      342078996234      branches                  # 3151.017 M/sec                  
+            696767      branch-misses             #    0.00% of all branches        
+
+     109.775315761 seconds time elapsed
+

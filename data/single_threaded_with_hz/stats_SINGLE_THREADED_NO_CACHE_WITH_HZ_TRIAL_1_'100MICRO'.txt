@@ -1,0 +1,14 @@
+
+ Performance counter stats for process id '9492':
+
+          10848.77 msec task-clock                #    0.900 CPUs utilized          
+                40      context-switches          #    0.004 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               197      page-faults               #    0.018 K/sec                  
+       48723756081      cycles                    #    4.491 GHz                    
+      111189129873      instructions              #    2.28  insn per cycle         
+       34208483193      branches                  # 3153.214 M/sec                  
+            163876      branch-misses             #    0.00% of all branches        
+
+      12.057718338 seconds time elapsed
+

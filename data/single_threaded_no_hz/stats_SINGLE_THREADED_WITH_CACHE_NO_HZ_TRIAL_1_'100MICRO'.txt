@@ -1,0 +1,14 @@
+
+ Performance counter stats for process id '9145':
+
+          11885.19 msec task-clock                #    0.909 CPUs utilized          
+                21      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               201      page-faults               #    0.017 K/sec                  
+       53429398941      cycles                    #    4.495 GHz                    
+       88031397546      instructions              #    1.65  insn per cycle         
+       16008752844      branches                  # 1346.950 M/sec                  
+           1708161      branch-misses             #    0.01% of all branches        
+
+      13.076351956 seconds time elapsed
+

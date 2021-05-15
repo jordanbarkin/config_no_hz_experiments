@@ -1,0 +1,14 @@
+
+ Performance counter stats for process id '9500':
+
+         119010.65 msec task-clock                #    0.990 CPUs utilized          
+               433      context-switches          #    0.004 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               201      page-faults               #    0.002 K/sec                  
+      535461593202      cycles                    #    4.499 GHz                    
+      880663830948      instructions              #    1.64  insn per cycle         
+      160166290117      branches                  # 1345.815 M/sec                  
+          19851102      branch-misses             #    0.01% of all branches        
+
+     120.229668473 seconds time elapsed
+

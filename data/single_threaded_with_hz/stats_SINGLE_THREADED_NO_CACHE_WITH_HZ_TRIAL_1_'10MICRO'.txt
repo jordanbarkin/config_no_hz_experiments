@@ -1,0 +1,14 @@
+
+ Performance counter stats for process id '9488':
+
+           1115.41 msec task-clock                #    0.480 CPUs utilized          
+                 5      context-switches          #    0.004 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               197      page-faults               #    0.177 K/sec                  
+        4931638889      cycles                    #    4.421 GHz                    
+       11121833086      instructions              #    2.26  insn per cycle         
+        3421342415      branches                  # 3067.343 M/sec                  
+            108150      branch-misses             #    0.00% of all branches        
+
+       2.322199236 seconds time elapsed
+

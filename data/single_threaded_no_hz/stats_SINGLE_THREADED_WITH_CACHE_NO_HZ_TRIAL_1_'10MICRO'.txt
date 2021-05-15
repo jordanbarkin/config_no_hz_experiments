@@ -1,0 +1,14 @@
+
+ Performance counter stats for process id '9140':
+
+           1501.35 msec task-clock                #    0.559 CPUs utilized          
+                 4      context-switches          #    0.003 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               201      page-faults               #    0.134 K/sec                  
+        6699281867      cycles                    #    4.462 GHz                    
+       11006957739      instructions              #    1.64  insn per cycle         
+        2001621965      branches                  # 1333.218 M/sec                  
+            202161      branch-misses             #    0.01% of all branches        
+
+       2.688054574 seconds time elapsed
+

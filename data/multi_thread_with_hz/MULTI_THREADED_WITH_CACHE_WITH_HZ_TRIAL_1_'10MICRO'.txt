@@ -1,0 +1,52 @@
+Running 100000 trials with 2 cycles each.
+Running with cache accesses.
+Launching threads...
+Started worker on core 4, index 0
+Started worker on core 5, index 1
+Started worker on core 6, index 2
+Started worker on core 7, index 3
+Started worker on core 8, index 4
+Started worker on core 9, index 5
+Started worker on core 10, index 6
+Started worker on core 11, index 7
+Started worker on core 12, index 8
+Started worker on core 13, index 9
+Started worker on core 14, index 10
+Started worker on core 15, index 11
+Started worker on core 16, index 12
+Started worker on core 17, index 13
+Started worker on core 18, index 14
+Started worker on core 19, index 15
+Started worker on core 20, index 16
+Started worker on core 21, index 17
+Started worker on core 22, index 18
+Started worker on core 23, index 19
+Started worker on core 24, index 20
+Started worker on core 25, index 21
+Started worker on core 26, index 22
+Started worker on core 27, index 23
+Started worker on core 28, index 24
+Started worker on core 29, index 25
+Started worker on core 30, index 26
+Started worker on core 31, index 27
+Started worker on core 32, index 28
+Started worker on core 33, index 29
+Started worker on core 34, index 30
+Started worker on core 35, index 31
+Started worker on core 36, index 32
+Started worker on core 37, index 33
+Started worker on core 38, index 34
+Started worker on core 39, index 35
+Started worker on core 40, index 36
+Started worker on core 41, index 37
+Started worker on core 42, index 38
+Started worker on core 43, index 39
+Started worker on core 44, index 40
+Started worker on core 45, index 41
+Started worker on core 46, index 42
+Started worker on core 47, index 43
+Start time: 
+7569796105484
+End time: 
+7580295732776
+All threads finished

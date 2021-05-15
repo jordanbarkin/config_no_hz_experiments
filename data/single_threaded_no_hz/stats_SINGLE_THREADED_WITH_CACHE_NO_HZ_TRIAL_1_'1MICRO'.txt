@@ -1,0 +1,14 @@
+
+ Performance counter stats for process id '9130':
+
+            754.24 msec task-clock                #    0.389 CPUs utilized          
+                 2      context-switches          #    0.003 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               201      page-faults               #    0.266 K/sec                  
+        3342984913      cycles                    #    4.432 GHz                    
+        5505208957      instructions              #    1.65  insn per cycle         
+        1001112214      branches                  # 1327.320 M/sec                  
+            101835      branch-misses             #    0.01% of all branches        
+
+       1.940176578 seconds time elapsed
+

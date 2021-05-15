@@ -1,0 +1,14 @@
+
+ Performance counter stats for process id '9496':
+
+            764.05 msec task-clock                #    0.387 CPUs utilized          
+                 2      context-switches          #    0.003 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               201      page-faults               #    0.263 K/sec                  
+        3345631773      cycles                    #    4.379 GHz                    
+        5505954617      instructions              #    1.65  insn per cycle         
+        1001242323      branches                  # 1310.449 M/sec                  
+            103668      branch-misses             #    0.01% of all branches        
+
+       1.974061084 seconds time elapsed
+

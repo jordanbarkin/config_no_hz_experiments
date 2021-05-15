@@ -1,0 +1,14 @@
+
+ Performance counter stats for process id '9475':
+
+            129.57 msec task-clock                #    0.099 CPUs utilized          
+                 3      context-switches          #    0.023 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               197      page-faults               #    0.002 M/sec                  
+         497977787      cycles                    #    3.843 GHz                    
+        1115072305      instructions              #    2.24  insn per cycle         
+         342622835      branches                  # 2644.237 M/sec                  
+            102426      branch-misses             #    0.03% of all branches        
+
+       1.305495259 seconds time elapsed
+

@@ -1,0 +1,14 @@
+
+ Performance counter stats for process id '9511':
+
+          11900.19 msec task-clock                #    0.908 CPUs utilized          
+                46      context-switches          #    0.004 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               201      page-faults               #    0.017 K/sec                  
+       53455157428      cycles                    #    4.492 GHz                    
+       88069681195      instructions              #    1.65  insn per cycle         
+       16017219238      branches                  # 1345.964 M/sec                  
+           1835042      branch-misses             #    0.01% of all branches        
+
+      13.101282963 seconds time elapsed
+

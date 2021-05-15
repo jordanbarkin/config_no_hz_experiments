@@ -1,0 +1,14 @@
+
+ Performance counter stats for process id '9126':
+
+          10911.65 msec task-clock                #    0.902 CPUs utilized          
+                19      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               197      page-faults               #    0.018 K/sec                  
+       49054296259      cycles                    #    4.496 GHz                    
+      111154077200      instructions              #    2.27  insn per cycle         
+       34200728429      branches                  # 3134.333 M/sec                  
+            103762      branch-misses             #    0.00% of all branches        
+
+      12.103112716 seconds time elapsed
+

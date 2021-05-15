@@ -1,0 +1,14 @@
+
+ Performance counter stats for process id '9134':
+
+         118740.00 msec task-clock                #    0.990 CPUs utilized          
+               237      context-switches          #    0.002 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+               201      page-faults               #    0.002 K/sec                  
+      534272019691      cycles                    #    4.500 GHz                    
+      880281532157      instructions              #    1.65  insn per cycle         
+      160081836530      branches                  # 1348.171 M/sec                  
+          16405701      branch-misses             #    0.01% of all branches        
+
+     119.915313446 seconds time elapsed
+
