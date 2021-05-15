@@ -84,7 +84,7 @@ int main(int argc, char * argv[]) {
     int NUM_PHASES = atoi(argv[2]);
 
     // store time for each trial
-    results = (uint64_t*) malloc((NUM_PHASES + 1) * sizeof(uint64_t));
+    results = (uint64_t*) calloc((NUM_PHASES + 100),sizeof(uint64_t));
 
     // should run the cache version of the benchmark
     int should_cache = atoi(argv[3]);
@@ -96,8 +96,8 @@ int main(int argc, char * argv[]) {
     num_cores = last_cpu - first_cpu + 1;
 
     // barriers, initialized to 0
-    barriers = (std::atomic <int>* ) malloc(sizeof(std::atomic <int> ) * (NUM_PHASES));
-    for (int x = 0; x < num_cores; x++) {
+    barriers = (std::atomic <int>* ) malloc(sizeof(std::atomic <int> ) * (2 + NUM_PHASES));
+    for (int x = 0; x < NUM_PHASES; x++) {
       barriers[x] = 0;
     }
 
@@ -131,8 +131,6 @@ int main(int argc, char * argv[]) {
     printf("End time: \n");
     printf("%lu\n", rdtsc());
 
-    pthread_join(tids[0], NULL);
-
     printf("All threads finished\n");
 
     // stop perf stat by killing child process
@@ -141,8 +139,8 @@ int main(int argc, char * argv[]) {
 
     printf("Phase lengths:\n");
     // Print to stdout. Useful for shell scripting
-    for (int i = 1; i < NUM_PHASES + 1; i++) {
-      printf("%lu\n", results[i] - results[i - 1]);
+    for (int i = 2; i < NUM_PHASES; i++) {
+       printf("%lu\n", results[i] - results[i - 1]);
     }
   }
 }
