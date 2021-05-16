@@ -4,7 +4,6 @@ CC = g++
 # compiler flags:
 CFLAGS  = -pthread -O0
 
-# the build target executable:
 all: calibrate multithreaded
 
 calibrate: calibrate.cpp
